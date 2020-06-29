@@ -65,7 +65,7 @@ const getAverageTransactionValue = () => {
         somador += anotherUser.transactions[i].value
     }
 
-    return somador
+    return somador / anotherUser.transactions.length
 }
 
 const getTransactionsCount = () => {
